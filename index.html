@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Moïse Koye, développeur web"
+    />
+    <title>Portfolio Moïse Koye</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="logofav.png" />
+
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icônes -->
+    <script
+      src="https://kit.fontawesome.com/2018e2ad13.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Bouton de navigation mobile -->
+    <button
+      class="mobile-nav-toggle"
+      aria-controls="primary-navigation"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Menu</span>
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="primary-navigation" id="primary-navigation">
+          <div class="logo">
+            <h1>Moïse<span>KOYE</span></h1>
+            <p>Développeur Web / UI Designer</p>
+          </div>
+
+          <ul class="nav-links">
+            <li>
+              <a
+                href="#about"
+                class="nav-link"
+                data-fr="À propos"
+                data-en="About me"
+                >À propos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#formation"
+                class="nav-link"
+                data-fr="Formation"
+                data-en="formation"
+                >Formation</a
+              >
+            </li>
+            <li>
+              <a
+                href="#skills"
+                class="nav-link"
+                data-fr="Compétences"
+                data-en="Skills"
+                >Compétences</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                class="nav-link"
+                data-fr="Projets"
+                data-en="Projects"
+                >Projets</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="nav-link"
+                data-fr="Contact"
+                data-en="Contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="nav-actions">
+            <a
+              href="https://github.com/MoiseKoye"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github" id="github-icon"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kangah-moise-koye-a1892a321/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin" id="linkedin-icon"></i>
+            </a>
+            <button id="theme-toggle" aria-label="Changer de thème">
+              <i class="fa-solid fa-moon" id="dark-icon"></i>
+              <i class="fa-regular fa-sun" id="light-icon"></i>
+            </button>
+            <button id="lang-toggle" aria-label="Changer de langue">
+              <span id="en-flag" class="fa-solid fa-language"></span>
+              <span id="fr-flag" class="fa-solid fa-language"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="animated-text">Je suis <span></span></div>
+            <p
+              class="hero-description"
+              data-fr="Développer des applications web modernes et performantes est bien plus qu'un métier, c'est une passion."
+              data-en="Developing modern, high-performance web applications is more than a job, it's a passion."
+            >
+              Développer des applications web modernes et performantes est bien
+              plus qu'un métier, c'est une passion.
+            </p>
+            <div class="hero-cta">
+              <a
+                href="#projects"
+                class="btn btn-primary"
+                data-fr="Voir mes projets"
+                data-en="See my projects"
+                >Voir mes projets</a
+              >
+              <a
+                href="#contact"
+                class="btn btn-secondary"
+                data-fr="Me contacter"
+                data-en="Contact me"
+                >Me contacter</a
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <h1 class="mobile-name">Moïse <span>KOYE</span></h1>
+            <img src="/mosess.jpg" alt="Moïse Koye" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section-title" data-fr="À mon propos" data-en="About me">
+          À mon propos <i class="fa-regular fa-comment-dots"></i>
+        </h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="/image0(1).jpeg" alt="Moïse Koye" loading="lazy" />
+          </div>
+          <div class="about-text">
+            <p
+              data-fr=" En tant qu’étudiant en développement web et mobile, passionné par
+              la tech, la cybersécurité et l’innovation, j’aborde chaque projet
+              comme un défi à relever. Mon objectif est d’analyser des
+              problématiques complexes, concevoir des solutions digitales sur
+              mesure et garantir leur performance et leur sécurité. Que ce soit
+              à travers le développement d’applications web et mobiles,
+              l’optimisation d’interfaces ou la protection des systèmes, je
+              m’efforce d’apporter des solutions fiables et innovantes qui
+              répondront aux besoins des utilisateurs et des entreprises.."
+              data-en="As a web and mobile development student, passionate about
+technology, cybersecurity, and innovation, I approach each project
+as a challenge. My goal is to analyze
+complex problems, design customized digital solutions, and guarantee their performance and security. Whether
+through web and mobile application development, interface optimization, or system protection, I strive to provide reliable and innovative solutions that
+meet the needs of users and businesses."
+            >
+              En tant qu’étudiant en développement web et mobile, passionné par
+              la tech, la cybersécurité et l’innovation, j’aborde chaque projet
+              comme un défi à relever. Mon objectif est d’analyser des
+              problématiques complexes, concevoir des solutions digitales sur
+              mesure et garantir leur performance et leur sécurité. Que ce soit
+              à travers le développement d’applications web et mobiles,
+              l’optimisation d’interfaces ou la protection des systèmes, je
+              m’efforce d’apporter des solutions fiables et innovantes qui
+              répondront aux besoins des utilisateurs et des entreprises.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education-->
+    <section class="formation section" id="formation">
+      <div class="container">
+        <h2 class="section-title" data-fr="Formation" data-en="Formation">
+          Formation <i class="fa-regular fa-comment-dots"></i>
+        </h2>
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap w-full">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-10 md:py-6">
+              <div class="flex relative pb-12">
+                <div
+                  class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                >
+                  <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                >
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="flex- pl-4">
+                  <h2
+                    class="font-medium title-font text-sm text-white mb-1 tracking-wider"
+                  >
+                    <span> 2024-2025 |</span> Ecole de Spécialité Multimédia
+                    d'Abidjan
+                  </h2>
+                  <p class="leading-relaxed">
+                    Licence 3 Developpement Web & Mobile
+                  </p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div
+                  class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                >
+                  <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                >
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="font-medium title-font text-sm text-white mb-1 tracking-wider"
+                  >
+                    <span> 2023-2024 |</span> Ecole de Spécialité Multimédia
+                    d'Abidjan
+                  </h2>
+                  <p class="leading-relaxed">
+                    BTS Informatique Developpeur d'Application
+                  </p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div
+                  class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                >
+                  <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                >
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="font-medium title-font text-sm text-white mb-1 tracking-wider"
+                  >
+                    <span> 2023-2024 |</span> Ecole de Spécialité Multimédia
+                    d'Abidjan
+                  </h2>
+                  <p class="leading-relaxed">Licence 2 Informatique</p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div
+                  class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                >
+                  <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                >
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="font-medium title-font text-sm text-white mb-1 tracking-wider"
+                  >
+                    <span> 2022-2023 |</span> Institut Universtitaire de
+                    Technologie d'Abidjan
+                  </h2>
+                  <p class="leading-relaxed">Licence 1 Informatique</p>
+                </div>
+              </div>
+              <div class="flex relative">
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                >
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2
+                    class="font-medium title-font text-sm text-white mb-1 tracking-wider"
+                  >
+                    <span> 2021-2022 |</span> Lycée Municipal d'Abobo
+                  </h2>
+                  <p class="leading-relaxed">
+                    Baccalauréat série scientifique D
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section-title" data-fr="Compétences" data-en="Skills">
+          Compétences <i class="fa-solid fa-toolbox"></i>
+        </h2>
+        <div class="mobile-carousel skills-carousel">
+          <div class="skill-card">
+            <img
+              src="JavaScript_logo.svg.png"
+              alt="JavaScript"
+              loading="lazy"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-card">
+            <img src="figma.jpeg" alt="TypeScript" loading="lazy" />
+            <p>Figma</p>
+          </div>
+          <div class="skill-card">
+            <img src="php.png" alt="Node.js" loading="lazy" />
+            <p>PHP</p>
+          </div>
+          <div class="skill-card">
+            <img src="boostrap.png" alt="Express.js" loading="lazy" />
+            <p>Boostrap</p>
+          </div>
+          <div class="skill-card">
+            <img src="postgresql.png" alt="PostgreSQL" loading="lazy" />
+            <p>PostgreSQL</p>
+          </div>
+          <div class="skill-card">
+            <img src="prisma.png" alt="TypeScript" loading="lazy" />
+            <p>Prisma</p>
+          </div>
+          <div class="skill-card">
+            <img src="react.png" alt="React" loading="lazy" />
+            <p>React</p>
+          </div>
+          <div class="skill-card">
+            <img src="nextjs.png" alt="Next.js" loading="lazy" />
+            <p>Next.js</p>
+          </div>
+          <div class="skill-card">
+            <img src="svelte.png" alt="Svelte" loading="lazy" />
+            <p>Svelte</p>
+          </div>
+          <div class="skill-card">
+            <img src="tailwind.png" alt="Tailwind CSS" loading="lazy" />
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <img src="HTML5_logo.png" alt="HTML5" loading="lazy" />
+            <p>HTML5</p>
+          </div>
+          <div class="skill-card">
+            <img src="css-logo.png" alt="CSS3" loading="lazy" />
+            <p>CSS3</p>
+          </div>
+        </div>
+        <div class="skills-grid desktop-only">
+          <div class="skill-card">
+            <img
+              src="JavaScript_logo.svg.png"
+              alt="JavaScript"
+              loading="lazy"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-card">
+            <img src="adobe xd.png" alt="Adobe XD" loading="lazy" />
+            <p>Adobe XD</p>
+          </div>
+          <div class="skill-card">
+            <img src="java.webp" alt="Java" loading="lazy" />
+            <p>Java</p>
+          </div>
+          <div class="skill-card">
+            <img src="php.png" alt="PHP" loading="lazy" />
+            <p>PHP</p>
+          </div>
+          <div class="skill-card">
+            <img src="boostrap.png" alt="Boostrap" loading="lazy" />
+            <p>Boostrap</p>
+          </div>
+          <div class="skill-card">
+            <img src="figma.jpeg" alt="Figma" loading="lazy" />
+            <p>Figma</p>
+          </div>
+          <div class="skill-card">
+            <img src="HTML5_logo.png" alt="HTML5" loading="lazy" />
+            <p>HTML5</p>
+          </div>
+          <div class="skill-card">
+            <img src="css-logo.png" alt="CSS3" loading="lazy" />
+            <p>CSS3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-fr="Projets" data-en="Projects">
+          Projets <i class="fa-solid fa-diagram-project"></i>
+        </h2>
+        <div class="mobile-carousel projects-carousel">
+          <!-- Projet 1 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="Alliai Restaurant" data-en="Alliai Restaurant">
+                  Alliai Restaurant
+                </h3>
+                <div class="project-image">
+                  <img
+                    src="alliai-restaurant.PNG"
+                    alt="Alliai Restaurant"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Editeur de texte : Vs Code"
+                    data-en="Editeur de texte: Vs Code"
+                  >
+                    Framework : Vs Code
+                  </li>
+                  <li data-fr="Design : Adobe Xd" data-en="Design: Adobe Xd">
+                    Typage : Adobe Xd
+                  </li>
+                  <li data-fr="Style : Boostrap" data-en="Styling: Boostrap">
+                    Style : Boostrap
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://alliai-restaurant-c.vercel.app/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 2 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="C'chap livraison" data-en="C'chap livraison">C'Chap Livraison</h3>
+                <div class="project-image">
+                  <img
+                    src="C'chap.png"
+                    alt="Application C'Chap Livraison"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Framework : Next.js"
+                    data-en="Framework: Next.js"
+                  >
+                    Framework : Next.js
+                  </li>
+                  <li
+                    data-fr="Typage : TypeScript"
+                    data-en="Typing: TypeScript"
+                  >
+                    Typage : TypeScript
+                  </li>
+                  <li
+                    data-fr="Style : Tailwind CSS/Boostrap"
+                    data-en="Styling: Tailwind CSS/Boostrap"
+                  >
+                    Style : Tailwind CSS /Boostrap
+                  </li>
+                  <li
+                    data-fr="Base de données : MySql"
+                    data-en="Database: MySql"
+                  >
+                    Base de données : MySQL
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://projet1.bonovapro.com/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 3 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+              <h3 data-fr="Kpandji Auto" data-en="Kpandji Auto">Kpandji Auto</h3>
+
+                <div class="project-image">
+                  <img
+                    src="kpandji.png"
+                    alt="Kpandji Auto"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  
+                  <li
+                    data-fr="Outils de developpement : VS Code"
+                    data-en="Outils de developpement: VS Code"
+                  >
+                    Outils de developpement : VS Code
+                  </li>
+                  <li
+                    data-fr="Style : Tailwind CSS / Boostrap"
+                    data-en="Styling: Tailwind CSS / Boostrap"
+                  >
+                    Style : Tailwind CSS / Boostrap
+                  </li>
+                  
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://kpandjiciofficiel.netlify.app/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 4 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="Vote BDE " data-en="Vote BDE">Vode-BDE</h3>
+                <div class="project-image">
+                  <img
+                    src="Vote.png"
+                    alt="Vote BDE"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Base de Donnée : MySql"
+                    data-en="Base de donnée: MySQL"
+                  >
+                    Base de donnée : Mysql
+                  </li>
+                  <li data-fr="Balisage : HTML" data-en="Markup: HTML">
+                    Balisage : HTML
+                  </li>
+                  <li data-fr="Style : CSS" data-en="Styling: CSS">
+                    Style : CSS
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="/vote-esma.com"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+
+        <div class="projects-grid desktop-only">
+          <!-- Projet 1 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="Alliai Restaurant" data-en="Alliai Restaurant">
+                  Alliai Restaurant
+                </h3>
+                <div class="project-image">
+                  <img
+                    src="alliai-restaurant.PNG"
+                    alt="Alliai Restaurant"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Editeur de texte : Vs Code"
+                    data-en="Editeur de texte: Vs Code"
+                  >
+                    Editeur de texte : Vs Code
+                  </li>
+                  <li data-fr="Design: Adobe XD" data-en="Typing: Adobe XD">
+                    Design: Adobe XD
+                  </li>
+                  <li
+                    data-fr="Framework : Boostrap"
+                    data-en="Framework: Boostrap"
+                  >
+                    Framework : Boostrap
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://alliai-restaurant-c.vercel.app/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 2 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="C'Chap Livraison" data-en="Weather">
+                  C'Chap Livraison
+                </h3>
+                <div class="project-image">
+                  <img
+                    src="C'chap.png"
+                    alt=" C'Chap Livraison"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Base de données : MySql"
+                    data-en="Database: MySql"
+                  >
+                    Base de données : MySql
+                  </li>
+                  <li data-fr="Design: Figma" data-en="Design: Figma">
+                    Design: Figma
+                  </li>
+                  <li
+                    data-fr="Style : Tailwind CSS"
+                    data-en="Styling: Tailwind CSS"
+                  >
+                    Style : Tailwind CSS
+                  </li>
+
+                  <li
+                    data-fr="API : Geocode pour la localisation"
+                    data-en="API: Geocode for location"
+                  >
+                    API : Geocode pour la localisation
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://projet1.bonovapro.com/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 3 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="Vote-BDE" data-en="Vote-BDE">Vote-BDE</h3>
+                <div class="project-image">
+                  <img src="Vote.png" alt="Vote-BDE" loading="lazy" />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Editeur de texte : Vs Code"
+                    data-en="Editeur de texte: Vs Code"
+                  >
+                    Editeur de texte : Vs Code
+                  </li>
+                  <li data-fr="Design: Adobe XD" data-en="Design: Adobe XD">
+                    Typage : Adobe XD
+                  </li>
+                  <li
+                    data-fr="Style : Tailwind CSS / Boostrap"
+                    data-en="Styling: Tailwind CSS / Boostrap"
+                  >
+                    Style : Tailwind CSS / Boostrap
+                  </li>
+
+                  <li
+                    data-fr="Base de données : MySQL"
+                    data-en="Database: MySQL"
+                  >
+                    Base de données : MySQL
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://esma-vote.bonovapro.com/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 4 -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <h3 data-fr="Kpandji Automobile" data-en="Kpandji Automobile">
+                  Kpandji Automobile
+                </h3>
+                <div class="project-image">
+                  <img
+                    src="kpandji.png"
+                    alt="Kpandji Automobile"
+                    loading="lazy"
+                  />
+                </div>
+                <button
+                  class="flip-btn"
+                  data-fr="Voir les détails"
+                  data-en="See details"
+                >
+                  Voir les détails
+                </button>
+              </div>
+              <div class="project-card-back">
+                <h3 data-fr="Outils du projet" data-en="Project Toolsk">
+                  Outils du projet
+                </h3>
+                <ul class="project-stack">
+                  <li
+                    data-fr="Framework : Boostrap"
+                    data-en="Framework: Boostrap"
+                  >
+                    Framework : Boostrap
+                  </li>
+                  <li
+                    data-fr="Langage : JavaScript"
+                    data-en="Language: JavaScript"
+                  >
+                    Langage : JavaScript
+                  </li>
+                  <li data-fr="Balisage : HTML" data-en="Markup: HTML">
+                    Balisage : HTML
+                  </li>
+                  <li data-fr="Style : CSS" data-en="Styling: CSS">
+                    Style : CSS
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://kpandjiciofficiel.netlify.app/"
+                    target="_blank"
+                    class="btn btn-sm"
+                    data-fr="Visiter le site"
+                    data-en="Visit Site"
+                    >Visiter le site</a
+                  >
+                </div>
+                <button class="flip-btn" data-fr="Retour" data-en="Back">
+                  Retour
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    
+<section class="contact" id="contact">
+        <h2 class="section-title" data-fr="Contact" data-en="Contact">
+          Contact <i class="fa-solid fa-address-card"></i>
+        </h2>
+    <div class="underline"></div>
+    <div class="contact-cards">
+        <a href="/CV Koye Moîse.pdf" class="card" target="_blank">
+        <i class="fa-regular fa-file-pdf"></i>
+            <p>Télécharger mon CV</p>
+        </a>
+        <a href="mailto:moisekoye15@gmail.com" class="card">
+        <i class="fa-solid fa-envelope"></i>
+            <p>M'envoyer un email</p>
+        </a>
+        <a href="https://www.linkedin.com/in/kangah-moise-koye-a1892a321/" class="card" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+            <em>Me contacter sur LinkedIn</em>
+        </a>
+        <a href="https://github.com/MoiseKoye" class="card" target="_blank">
+        <i class="fa-brands fa-github"></i>
+            <em>Voir mes projets sur GitHub</em>
+        </a>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="logo">
+            <h1>Moïse<span>KOYE</span></h1>
+          </div>
+          <p
+            class="copyright"
+            data-fr="&copy; Copyright 2025 Conçu et designé par moisekoye"
+            data-en="&copy; Copyright 2025 Conçu et designé par moisekoye"
+          >
+            &copy; Copyright 2025 Conçu et designé par moisekoye
+          </p>
+          <div class="footer-social">
+            <a
+              href="https://github.com/MoiseKoye"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kangah-moise-koye-a1892a321/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="moisekoye15@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button id="back-to-top" aria-label="Retour en haut">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="main.js" defer></script>
+  </body>
+</html>
